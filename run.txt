@@ -1,3 +1,9 @@
 .venv\Scripts\activate
 
 pip install -r requirements.txt
+
+# Run QA & integration tests
+python -m unittest tests/test_integration_qa.py -v
+
+# Launch real-time dashboard
+streamlit run app/app.py

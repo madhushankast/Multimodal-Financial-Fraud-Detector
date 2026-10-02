@@ -1,0 +1,40 @@
+{
+  "transaction_id": 3000002,
+  "fraud_probability": 0.1897,
+  "decision_threshold": 0.8,
+  "decision": "APPROVE",
+  "risk_tier": "NORMAL / LOW RISK",
+  "top_contributing_evidence": [
+    {
+      "Feature": "V87",
+      "Feature_Type": "Numerical",
+      "Observed_Value": 3.0,
+      "Probability_Contribution": 0.1554
+    },
+    {
+      "Feature": "DeviceType",
+      "Feature_Type": "Categorical",
+      "Observed_Value": "mobile",
+      "Probability_Contribution": 0.1465
+    },
+    {
+      "Feature": "card1",
+      "Feature_Type": "Categorical",
+      "Observed_Value": 17188,
+      "Probability_Contribution": 0.1433
+    },
+    {
+      "Feature": "V45",
+      "Feature_Type": "Numerical",
+      "Observed_Value": 3.0,
+      "Probability_Contribution": 0.1396
+    },
+    {
+      "Feature": "card6",
+      "Feature_Type": "Categorical",
+      "Observed_Value": "credit",
+      "Probability_Contribution": 0.1224
+    }
+  ],
+  "execution_time_ms": 176.28
+}
